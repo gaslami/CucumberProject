@@ -45,10 +45,27 @@
             <version>5.11.3</version>
             <scope>test</scope>
         </dependency>
-        On branch main
-        nothing to commit, working tree clean
-    </dependencies>
 
+        <!-- Selenium Java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.25.0</version>
+        </dependency>
+
+        <!-- Selenium Chrome Driver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>4.25.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>LATEST</version> <!-- Automatisch die neueste Version beziehen -->
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
